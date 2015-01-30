@@ -33,7 +33,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'monetize', '~> 0.3.0'
   s.add_dependency 'sinatra', '~> 1.3.4'
   if defined?(JRUBY_VERSION)
-    s.add_dependency 'activerecord-jdbc-adapter', '~> 1.3.12'
+    s.add_dependency 'activerecord-jdbc-adapter', '1.3.13'
     # NOTE: deprecated - kept for compatibility due **adapter: jdbcmysql** :
     #s.add_dependency 'activerecord-jdbcmysql-adapter', '~> 1.3.12'
     # Required to avoid errors like java.lang.NoClassDefFoundError: org/bouncycastle/asn1/DERBoolean
