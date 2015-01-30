@@ -28,6 +28,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'activerecord', '4.1.8'
   s.add_dependency 'activerecord-bogacs', '~> 0.2.0'
   s.add_dependency 'actionpack', '4.1.8'
+  s.add_dependency 'nokogiri', '1.6.5'
   s.add_dependency 'money', '~> 6.1.1'
   s.add_dependency 'monetize', '~> 0.3.0'
   s.add_dependency 'sinatra', '~> 1.3.4'
