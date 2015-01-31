@@ -40,6 +40,9 @@ Gem::Specification.new do |s|
     s.add_dependency 'jruby-openssl', '~> 0.9.6'
   end
 
+  s.add_dependency 'atomic', '1.1.16'
+  s.add_dependency 'rack-test', '0.6.2'
+
   s.add_development_dependency 'jbundler', '~> 0.4.1'
   s.add_development_dependency 'rake', '>= 10.0.0'
   s.add_development_dependency 'rspec', '~> 2.12.0'
