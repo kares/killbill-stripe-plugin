@@ -30,8 +30,8 @@ Gem::Specification.new do |s|
   s.add_dependency 'actionpack', '4.1.8'
   s.add_dependency 'i18n', '0.6.11'
   s.add_dependency 'nokogiri', '1.6.5'
-  s.add_dependency 'money', '~> 6.2.1'
-  s.add_dependency 'monetize', '~> 0.4.0'
+  s.add_dependency 'money', '~> 6.5'
+  s.add_dependency 'monetize', '~> 1.0'
   s.add_dependency 'sinatra', '~> 1.3.4'
   if defined?(JRUBY_VERSION)
     s.add_dependency 'activerecord-jdbc-adapter', '1.3.13'
