@@ -41,6 +41,7 @@ Gem::Specification.new do |s|
     s.add_dependency 'jruby-openssl', '~> 0.9.6'
   end
 
+  s.add_dependency 'json', '1.8.1'
   s.add_dependency 'atomic', '1.1.16'
   s.add_dependency 'rack-test', '0.6.2'
 
