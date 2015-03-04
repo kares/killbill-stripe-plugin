@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    killbill-stripe (0.2.2.1)
+    killbill-stripe (0.2.2.3)
       actionpack (~> 4.1.0)
       actionview (~> 4.1.0)
       activemerchant (~> 1.44.1)
@@ -73,7 +73,7 @@ GEM
     jdbc-sqlite3 (3.8.7)
     jruby-openssl (0.9.6-java)
     json (1.8.1-java)
-    killbill (3.2.2.1)
+    killbill (3.2.2.3)
       rack (>= 1.5.2)
       sinatra (~> 1.3.4)
       typhoeus (~> 0.6.9)
@@ -130,7 +130,7 @@ DEPENDENCIES
   jbundler (~> 0.4.1)
   jdbc-mariadb (~> 1.1.7)
   jdbc-sqlite3 (~> 3.8.6)
-  killbill (= 3.2.2.1)
+  killbill (= 3.2.2.3)
   killbill-stripe!
   rake (>= 10.0.0)
   rspec (~> 2.12.0)
