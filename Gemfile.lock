@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    killbill-stripe (0.2.2.3)
+    killbill-stripe (0.2.2.4)
       actionpack (~> 4.1.0)
       actionview (~> 4.1.0)
       activemerchant (~> 1.44.1)
@@ -70,14 +70,14 @@ GEM
       maven-tools (~> 0.32.1)
       ruby-maven (~> 3.0.4)
     jdbc-mariadb (1.1.7)
+    jdbc-mysql (5.1.33)
     jdbc-sqlite3 (3.8.7)
     jruby-openssl (0.9.6-java)
     json (1.8.1-java)
-    killbill (3.2.2.3)
-      rack (>= 1.5.2)
+    killbill (3.2.2.4)
       sinatra (~> 1.3.4)
       typhoeus (~> 0.6.9)
-      tzinfo (~> 1.2.0)
+      tzinfo (~> 1.1.0)
     maven-tools (0.32.5)
     minitest (5.5.1)
     monetize (0.3.0)
@@ -119,7 +119,7 @@ GEM
     tilt (1.4.1)
     typhoeus (0.6.9)
       ethon (>= 0.7.1)
-    tzinfo (1.2.2)
+    tzinfo (1.1.0)
       thread_safe (~> 0.1)
 
 PLATFORMS
@@ -129,8 +129,9 @@ DEPENDENCIES
   activerecord (= 4.1.8)
   jbundler (~> 0.4.1)
   jdbc-mariadb (~> 1.1.7)
+  jdbc-mysql
   jdbc-sqlite3 (~> 3.8.6)
-  killbill (= 3.2.2.3)
+  killbill (= 3.2.2.4)
   killbill-stripe!
   rake (>= 10.0.0)
   rspec (~> 2.12.0)
